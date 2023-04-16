@@ -1,0 +1,73 @@
+.topButtons {
+    width: 100px;
+    height: 40px;
+    padding: 8px 5px 8px 5px;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 90%;
+    background: #0000ff;
+    color: #fff;
+    float: right;                  
+    border-color: white;
+    margin: 0px 0px 0px 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.login-buttons-container{
+   position: absolute;
+   top: 10px;
+   right: 10px;
+   
+}
+
+.title-container {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+}
+
+.title {
+   font-family: 'Montez', cursive;
+   font-size: 50px;
+   color: blue;
+   margin: 0;
+}
+
+.sub-title {
+   font-family: 'Montez', cursive;
+   font-size: 20px;
+   color: #565BE1;
+   margin: 0;
+}
+.su {
+   font-family: 'Montez', cursive;
+   font-size: 20px;
+   color:white;
+   margin: 0;
+   color : #565BE1;
+}
+.close-icon{
+   color: #aaa;
+  float: right;
+  font-size: 20px;
+}
+.modal{
+   top: 0;
+    background-color: rgba(0,0,0,0.8);
+    display: none;
+    width: 100%;
+    z-index: 1;
+    left: 0;
+    position: fixed;
+    overflow: auto;
+    height: 100%;
+    background-color: rgb(0,0,0);
+    opacity: 0.9;
+}  
+.modal-content{
+   padding: 0px 20px 20px 20px;
+   background-color: #fefefe;
+   margin: 2% auto;
+   width: 25%;
+   border: 1px solid #888;
+   font-family: 'Abel', sans-serif;
+}
